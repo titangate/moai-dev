@@ -16,7 +16,7 @@
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "moai.app"
                BlueprintName = "moai"
-               ReferencedContainer = "container:MoaiSample.xcodeproj">
+               ReferencedContainer = "container:PoE_MOAI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,7 +34,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "moai.app"
             BlueprintName = "moai"
-            ReferencedContainer = "container:MoaiSample.xcodeproj">
+            ReferencedContainer = "container:PoE_MOAI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -44,6 +44,7 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
@@ -52,7 +53,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "moai.app"
             BlueprintName = "moai"
-            ReferencedContainer = "container:MoaiSample.xcodeproj">
+            ReferencedContainer = "container:PoE_MOAI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,7 +71,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "moai.app"
             BlueprintName = "moai"
-            ReferencedContainer = "container:MoaiSample.xcodeproj">
+            ReferencedContainer = "container:PoE_MOAI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

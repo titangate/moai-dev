@@ -16,7 +16,7 @@
                BlueprintIdentifier = "CD508A07155E3AF90002FC3B"
                BuildableName = "moai-fmod-ex.app"
                BlueprintName = "moai-fmod-ex"
-               ReferencedContainer = "container:MoaiSample.xcodeproj">
+               ReferencedContainer = "container:PoE_MOAI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,7 +34,7 @@
             BlueprintIdentifier = "CD508A07155E3AF90002FC3B"
             BuildableName = "moai-fmod-ex.app"
             BlueprintName = "moai-fmod-ex"
-            ReferencedContainer = "container:MoaiSample.xcodeproj">
+            ReferencedContainer = "container:PoE_MOAI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -44,6 +44,7 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
@@ -52,7 +53,7 @@
             BlueprintIdentifier = "CD508A07155E3AF90002FC3B"
             BuildableName = "moai-fmod-ex.app"
             BlueprintName = "moai-fmod-ex"
-            ReferencedContainer = "container:MoaiSample.xcodeproj">
+            ReferencedContainer = "container:PoE_MOAI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,7 +71,7 @@
             BlueprintIdentifier = "CD508A07155E3AF90002FC3B"
             BuildableName = "moai-fmod-ex.app"
             BlueprintName = "moai-fmod-ex"
-            ReferencedContainer = "container:MoaiSample.xcodeproj">
+            ReferencedContainer = "container:PoE_MOAI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -244,15 +244,13 @@ int MOAINode::_seekAttr ( lua_State* L ) {
 	action->ReserveLinks ( 1 );
 	
 	u32 attrID = state.GetValue < u32 >( 2, 0 );
+	float value		= state.GetValue < float >( 3, 0.0f );
+	float delay		= state.GetValue < float >( 4, 0.0f );
+	u32 mode		= state.GetValue < u32 >( 5, USInterpolate::kSmooth );
 	if ( self->CheckAttrExists ( attrID )) {
 	
 		MOAIAttrOp getter;
 		self->ApplyAttrOp ( attrID, getter, MOAIAttrOp::GET );
-		if ( !getter.IsValid ()) return 0;
-		
-		float value		= state.GetValue < float >( 3, 0.0f );
-		float delay		= state.GetValue < float >( 4, 0.0f );
-		u32 mode		= state.GetValue < u32 >( 5, USInterpolate::kSmooth );
 		
 		action->SetLink ( 0, self, attrID, value - getter.GetValue ( 0.0f ), mode );
 		
